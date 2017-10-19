@@ -3,24 +3,26 @@ With you and another person, take out the jokers and shuffle the cards.
 Give yourself and your opponent 26 faced down cards.
 Place the 26 cards in front of you.
 both you and your opponent can’t see your cards.
-if your card value is higher;
+if your card value is higher:
   then you win the round.
 Ace is the highest card.
 2 is the lowest card of the game.
 Game rules:
-Count to 3;
+Count to 3:
 flip the top card at the same time.
 Compare the number on the cards.
-if your card is higher;
+if your card is higher:
   then you take both cards and put it on the bottom of your deck.
-if your opponent has the higher card;
-  then he takes both cards and puts it on his desk.
-If both of you have the same card number, the suit doesn’t matter;
-  then you place 4 faced down card on the table then flip the next top card on the table.
-The one with highest card takes all the cards and puts it on the bottom of the deck.
-If both of you get the same card value again 
-  then do the same thing as step 3.
-If you have all the cards;
+else if your opponent has the higher card:
+  then he takes both cards and puts it on his deck.
+else:
+  while top showing card is the same :
+    then you place 4 faced down card on the table then flip the next top card on the table.
+    The one with the highest card takes all the cards and puts it on the bottom of the deck.
+If you run out of cards:
+  then you lose the game.
+else you play another round:
+If you have all the cards:
   then you win the game.
 (setup)
 Take the deck and shuffle it.
@@ -29,15 +31,20 @@ Put the 26 faced down cards in front of you.
 (first 3 rounds)
 1) Count to 3;
 both of you put the top card face up in front of you.
-If you have the higher card;
+If you have the higher card:
   then you win the round and put the two cards on the bottom of the deck.
-If your opponent has the higher card;
+else if your opponent has the higher card:
   then your opponent wins the round and put the two cards on the bottom of the deck.
-If both of you have the same card number; 
-  then put the next 4 cards faced down and put the next card of the deck faced up.
-If you have the higher card;
+else:
+  while top showing card is the same :
+    then put the next 4 cards faced down and put the next card of the deck faced up.
+If you have the higher card:
   then you win the round and put all cards on the bottom of the deck.
-If your opponent has the higher card;
-  then your opponent wins the round and put the two cards on the bottom of the deck.
-If you get the same card value again 
-  then do the same thing as step 2.
+else if you opponent has the higher card:
+  then your opponent win the round and puts the two cards on the bottom of the deck.
+else:
+  while top showing card is the same :
+    then put the next 4 cards faced down and put the next card of the deck faced up.
+If you run out of cards:
+  then you lose the game.
+else you play another round:
